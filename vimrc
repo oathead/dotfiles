@@ -13,8 +13,6 @@ set softtabstop=4
 set autoindent
 set smarttab
 
-call pathogen#infect()
-" need to add pathogen to dotfiles
 
 " Load matchit (% to bounce from do to end, etc.)
   runtime! macros/matchit.vim
@@ -36,4 +34,12 @@ call pathogen#infect()
 "  set t_ts=^[]2;
 "  set t_fs=^G 
 "endif
+
+" -----------------------------------------------------------------------------  
+" |                               Host specific
+" -----------------------------------------------------------------------------  
+  if filereadable(expand("~/.vimrc.local"))
+    source ~/.vimrc.local
+    endif
+
 
