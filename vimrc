@@ -1,16 +1,17 @@
 set nocompatible "use vim settings instead of vi
 syntax on
-filetype plugin indent on
+filetype indent on
+filetype plugin on
 set title
 set t_Co=256
 set history=50
 set wildmenu
-set expandtab
 set nu
 set ts=4
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+set expandtab
 set autoindent
 set smarttab
 
