@@ -14,7 +14,7 @@ set autoindent
 set smarttab
 
 call pathogen#infect()
-
+" need to add pathogen to dotfiles
 
 " Load matchit (% to bounce from do to end, etc.)
   runtime! macros/matchit.vim
