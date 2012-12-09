@@ -1,8 +1,9 @@
-set nocompatible
+set nocompatible "use vim settings instead of vi
 syntax on
 filetype plugin indent on
 set title
 set t_Co=256
+set history=50
 set wildmenu
 set expandtab
 set nu
