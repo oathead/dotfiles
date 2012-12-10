@@ -32,3 +32,6 @@ set input-meta on
 set output-meta on
 set convert-meta off
 
+# turn off bell
+set bell-style none
+
