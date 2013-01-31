@@ -14,6 +14,7 @@ set softtabstop=4
 set expandtab
 set autoindent
 set smarttab
+set clipboard=unnamed
 
 
 " Load matchit (% to bounce from do to end, etc.)
