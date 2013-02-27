@@ -1,3 +1,4 @@
+execute pathogen#infect()
 set nocompatible "use vim settings instead of vi
 syntax on
 filetype indent on
@@ -15,6 +16,7 @@ set expandtab
 set autoindent
 set smarttab
 set clipboard=unnamed
+set pastetoggle=<F2>    " use F2 to turn of auto indent when pasting in code
 
 
 " Load matchit (% to bounce from do to end, etc.)

@@ -23,6 +23,10 @@ export GIT_EDITOR='/usr/bin/vim'
 # Set the path nginx
 export NGINX_PATH='/opt/nginx'
 
+# Setup virtualenvwrapper
+export WORKON_HOME="~/code/envs"
+source /usr/local/share/python/virtualenvwrapper.sh
+
 # Don't check mail when opening terminal.
 unset MAILCHECK
 
