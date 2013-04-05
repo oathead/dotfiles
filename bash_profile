@@ -4,7 +4,7 @@
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
 
 # Add rvm gems and nginx to the path
-export PATH=/usr/local/bin:/usr/local/share/python:$PATH:~/.gem/ruby/1.8/bin:/opt/nginx/sbin
+export PATH=/usr/local/bin:/usr/local/share/python:$PATH:/usr/local/sbin:~/.gem/ruby/1.8/bin:/opt/nginx/sbin
 
 # Path to the bash it configuration
 export BASH_IT=$HOME/.bash_it

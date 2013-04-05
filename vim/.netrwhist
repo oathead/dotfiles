@@ -1,6 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/Users/awagner/code/envs/flaskbase/templates'
 let g:netrw_dirhist_2='/Users/awagner/code/bebekicks'
 let g:netrw_dirhist_3='/Users/awagner/code/envs/flaskbase'
 let g:netrw_dirhist_4='/Users/awagner/code/envs/esxdata/templates'
+let g:netrw_dirhist_5='/Users/awagner/code/bebekicks'

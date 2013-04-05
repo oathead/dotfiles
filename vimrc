@@ -18,6 +18,9 @@ set smarttab
 set clipboard=unnamed
 set pastetoggle=<F2>    " use F2 to turn of auto indent when pasting in code
 
+" The remap below prevents having to use escape to exit insert mode
+" Your hands will thank you
+inoremap jk <esc>  
 
 " Load matchit (% to bounce from do to end, etc.)
   runtime! macros/matchit.vim
