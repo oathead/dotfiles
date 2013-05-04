@@ -17,6 +17,8 @@ set autoindent
 set smarttab
 set clipboard=unnamed
 set pastetoggle=<F2>    " use F2 to turn of auto indent when pasting in code
+map <F10> :NERDTreeToggle<CR>
+set hidden      
 
 " The remap below prevents having to use escape to exit insert mode
 " Your hands will thank you
