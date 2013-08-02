@@ -23,20 +23,17 @@ export GIT_EDITOR='/usr/bin/vim'
 # Set the path nginx
 export NGINX_PATH='/opt/nginx'
 
-# Setup virtualenvwrapper
-export WORKON_HOME="~/code/envs"
-source /usr/local/share/python/virtualenvwrapper.sh
+# Set my forecast.io api key
+export FORECASTKEY='c4b4603a67a918e801edb5c6f532954f'
 
 # Don't check mail when opening terminal.
 unset MAILCHECK
 
 
 # Change this to your console based IRC client of choice.
-
 export IRC_CLIENT='irssi'
 
 # Set this to the command you use for todo.txt-cli
-
 export TODO="t"
 
 # Set vcprompt executable path for scm advance info in prompt (demula theme)
