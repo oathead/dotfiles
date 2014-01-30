@@ -35,6 +35,20 @@ inoremap jk <esc>
     autocmd BufNewFile,BufReadPost *.go set filetype=go
   augroup END
 
+" Folding settings
+set foldmethod=syntax
+set foldlevelstart=20
+
+let javaScript_fold=1         " JavaScript
+let perl_fold=1               " Perl
+let ruby_fold=1               " Ruby
+let sh_fold_enabled=1         " sh
+let xml_syntax_folding=1      " XML
+
+"the dumber, but sometimes better folding option
+"set foldmethod=indent
+
+
 " set titlestring=%t%(\ %M%)%(\ (%{expand(\"%:p:h\")})%)%(\ %a%)\ -\ %{v:servername}
 
 "autocmd BufEnter * let &titlestring = $HOSTNAME . ":" . expand("%:p:~")

@@ -20,6 +20,9 @@ export BASH_IT_THEME='sirup'
 export EDITOR="/usr/bin/vim"
 export GIT_EDITOR='/usr/bin/vim'
 
+# Set GOPATH
+export GOPATH='~/code/go'
+
 # Set the path nginx
 export NGINX_PATH='/opt/nginx'
 
