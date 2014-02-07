@@ -24,6 +24,10 @@ set hidden
 " Your hands will thank you
 inoremap jk <esc>  
 
+" remaps for switching through buffers
+nnoremap <silent> [b :bprevious<CR> 
+nnoremap <silent> ]b :bnext<CR>
+
 " Load matchit (% to bounce from do to end, etc.)
   runtime! macros/matchit.vim
 
