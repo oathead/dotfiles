@@ -43,12 +43,8 @@ nnoremap <silent> ]b :bnext<CR>
 
 "autocmd BufEnter * let &titlestring = $HOSTNAME . ":" . expand("%:p:~")
 
-"if &term == "xterm" || &term == "xterm-256color"
-" Let the title stuff work even if we don't open the DISPLAY
-"  set title
-"  set t_ts=^[]2;
-"  set t_fs=^G 
-"endif
+"open NERDTree if no files were specified
+autocmd vimenter * if !argc() | NERDTree | endif
 
 " -----------------------------------------------------------------------------  
 " |                               Host specific
