@@ -23,9 +23,6 @@ export GIT_EDITOR='/usr/bin/vim'
 # Set the path nginx
 export NGINX_PATH='/opt/nginx'
 
-# Set my forecast.io api key
-export FORECASTKEY='c4b4603a67a918e801edb5c6f532954f'
-
 # Don't check mail when opening terminal.
 unset MAILCHECK
 
@@ -35,6 +32,9 @@ export IRC_CLIENT='irssi'
 
 # Set this to the command you use for todo.txt-cli
 export TODO="t"
+
+# Load local profile
+source ~/.bash_profile_local
 
 # Set vcprompt executable path for scm advance info in prompt (demula theme)
 # https://github.com/xvzf/vcprompt
