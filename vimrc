@@ -42,6 +42,7 @@ nnoremap <silent> ]b :bnext<CR>
 " Folding settings
 set foldmethod=syntax
 set foldlevelstart=20
+let g:vim_markdown_folding_disabled=1
 
 let javaScript_fold=1         " JavaScript
 let perl_fold=1               " Perl

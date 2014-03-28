@@ -45,3 +45,5 @@ source ~/.bash_profile_local
 
 # Load Bash It
 source $BASH_IT/bash_it.sh
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
